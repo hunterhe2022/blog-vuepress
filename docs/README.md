@@ -1,2 +1,4 @@
 # Hello VuePress
-test ldeploy
+
+start: yarn dev
+deploy: sh deploy.sh

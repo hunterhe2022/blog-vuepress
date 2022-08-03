@@ -1,12 +1,17 @@
 {
-  "devDependencies": {
-    "vuepress": "^2.0.0-beta.49"
-  },
+  "name": "vuepress-blog",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "add": "sh ./add.sh"
   },
-  "dependencies": {
-    "markdown-it": "^13.0.1"
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.2.0",
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-permalink-pinyin": "^1.1.0",
+    "vuepress-plugin-sitemap": "^2.1.2",
+    "vuepress-theme-simple": "^1.0.0"
   }
 }
