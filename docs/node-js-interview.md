@@ -3,7 +3,7 @@ title: Node.js Interview Questions
 data: 2022-08-02
 ---
 
-![图片](../png/node-js-interview/Node.js_Architecture_Workflow.png)
+![图片](./png/node-js-interview/node.js-architecture.png)
 # Node.Js
 ## What is Node.Js?
 Node.Js is an extremely powerful JavaScript runtime environment for running web applications outside the client's browser. Developers use Node.js to create server-side web applications, and it is perfect for data-intensive applications since it uses an asynchronous, event-driven model.
@@ -119,7 +119,7 @@ function call
 
 # docker
 [教程](https://docker.easydoc.net/)
-![图片](../png/node-js-interview/Docker_File.png)
+![图片](./png/node-js-interview/docker-file.png)
 
 Docker 是一个应用打包、分发、部署的工具
 
@@ -165,7 +165,7 @@ Mocha unit test
 ## [Resume Template](https://www.beamjobs.com/)
 
 
-# Reference:
+# Reference:·
 
 [1] [Top 50+ Node.js Interview Questions and Answers for 2022](https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions)
 

@@ -7,8 +7,8 @@ module.exports = {
     },
   },
   title: "Hunter's blog",
-  // description: '',
   base: "/blog-vuepress/",
+  // description: '',
   // themeConfig: {
   //     nav: [
   //         { text: 'Home', link: '/' },
