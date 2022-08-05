@@ -1,17 +1,17 @@
 module.exports = {
-    theme: 'simple',
-    themeConfig: {
-        author: 'HUNTER',
-        navbar: {
-            // Hunter: ''
-        },
+  theme: "simple",
+  themeConfig: {
+    author: "HUNTER",
+    navbar: {
+      // Hunter: ''
     },
-    title: "Hunter's blog",
-    // description: '',
-    // base: 'blog-vuepress',
-    // themeConfig: {
-    //     nav: [
-    //         { text: 'Home', link: '/' },
-    //     ]
-    // }
-}
+  },
+  title: "Hunter's blog",
+  // description: '',
+  base: "blog-vuepress",
+  // themeConfig: {
+  //     nav: [
+  //         { text: 'Home', link: '/' },
+  //     ]
+  // }
+};
