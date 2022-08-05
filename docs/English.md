@@ -1,5 +1,5 @@
 ---
-title: Plain Engigh
+title: Plain EngLish
 ---
 
 Introduce yourself

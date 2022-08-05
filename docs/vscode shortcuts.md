@@ -1,5 +1,5 @@
 ---
-title: 
+title: VsCode shortcuts
 ---
 
 # markdown file
