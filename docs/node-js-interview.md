@@ -4,6 +4,25 @@ data: 2022-08-02
 ---
 
 ![图片](./png/node-js-interview/node.js-architecture.png)
+
+# Self-introduce (Tell me about yourself)
+这个
+I'm Hunter, I'm from China. I was a backend engineer. I have been developing for almost 2 years. I started my career at an insurance tech company. In that company I was responsible for building and maintain backend apis using javascript and nodejs. 
+
+# Project Introduce （Tell me about your projects）
+https://offerbang.io/resource/169
+STAR 大法：
+Situation: At my last company, I was in charge of developing a insurance annual renewal(是这么说的吗) project. 
+
+Task: The goal was to encourage users whose insurance policies are about to expire continue to renew on our website. We need to completed
+this project within a month to catch up the time.
+
+Action: In order to do that, I had to analyze the requirements carefully and make the api design and document quickly. 
+需求分析，做了设计，然后和团队成员沟通，讨论这个方案可不可行。（做这个避免在设计阶段就犯错） 大家看过没问题了以后，我就开始 用nodejs + mongodb 开发程序，
+
+Result: As a result, the project was completed one week ahead of deadline and 增加了500单保单的销量。
+
+
 # Node.Js
 ## What is Node.Js?
 Node.Js is an extremely powerful JavaScript runtime environment for running web applications outside the client's browser. Developers use Node.js to create server-side web applications, and it is perfect for data-intensive applications since it uses an asynchronous, event-driven model.
@@ -13,8 +32,9 @@ OK, The Event Loop allows nodejs to perform non-blocking io operations.
 
 The Event Loop is a queue of callback functions. When an async 
 function executes, the callback function is pushed into the queue. 
-The JavaScript engine doesn't start processing the event loop until 
-the code after an async function has been executed.
+
+The JavaScript engine doesn't start continue processing the event loop until the code after an async function has executed.
+
 So even though nodejs is single thread. The event loop allows nodejs to still perform multiple operations.
 
 https://nodejs.org/en/docs/guides/dont-block-the-event-loop/
@@ -67,8 +87,12 @@ GET - read
 PUT - Update
 DELETE - Delete
 
-除了POST都要设计成幂等的
+除了POST都要设计成幂等（idempotent, 请求一次和请求多次的结果是一样的）
 
+
+## How to design REST API with versions?
+
+Separate routing and implementation. Pass version number as a parameter to the routing layer.
 # Database
 ## What databases are you familiar with?
 I'm familiar with MongoDB.
@@ -96,11 +120,15 @@ retrieved without knowing the password ($ne means not
 equals 1).
 ```
 
-use Mongoose Driver
+use Mongoose Driver 
 As it follows a schema, if the password is a string field, it will convert the object { $ne: 1 } to string and no damage will be done. In this case, you don't need to sanitize, just remember to set a proper schema.
 
 
 
+
+## What is a ORM?
+Object Relational Mapping
+An ORM library is a completely ordinary library written in your language of choice that encapsulates the code needed to manipulate the data, so you don't use SQL anymore; you interact directly with an object in the same language you're using.
 
 # Computer Science
 
